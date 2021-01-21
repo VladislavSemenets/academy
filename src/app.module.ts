@@ -4,6 +4,7 @@ import { ConfigModule } from './config/config.module';
 import { DatabaseModule } from './database/database.module';
 import { VideoModule } from './video/video.module';
 import { KeynoteModule } from './keynote/keynote.module';
+import { UserModule } from './user/user.module';
 
 import { AppController } from './app.controller';
 
@@ -12,7 +13,8 @@ import { AppController } from './app.controller';
     ConfigModule,
     VideoModule,
     DatabaseModule,
-    KeynoteModule
+    KeynoteModule,
+    UserModule
   ],
   controllers: [AppController],
   exports:[ConfigModule]
